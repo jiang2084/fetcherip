@@ -6,7 +6,7 @@ git clone git@github.com:jiang2084/fetcherip.git
 
 cd fetcherip
 
-进入config,配置好mysql等配置文件
+进入conf,配置好mysql等配置文件
 
 mkdir bin
 go build -o bin/fetchip
