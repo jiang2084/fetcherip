@@ -1,0 +1,18 @@
+mysql:
+    host:	127.0.0.1
+    port:	3306
+    dbName:	pools
+    username:	root
+    password:	123456
+    charset:	utf8mb4
+    maxIdleConns:	5
+    maxOpenConns:	100
+
+redis:
+    host:	127.0.0.1
+    port:	6379
+
+logs:
+    filePath:	logs
+    fileName:	ip.log
+    mode:	console
